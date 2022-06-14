@@ -40,19 +40,19 @@
                 android:id="@+id/btn1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="16" />
+                android:text="4" />
 
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="17" />
+                android:text="5" />
 
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="18" />
+                android:text="6" />
         </TableRow>
 
         <TableRow
@@ -65,19 +65,19 @@
                 android:id="@+id/btn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="19" />
+                android:text="7" />
 
             <Button
                 android:id="@+id/btn5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20" />
+                android:text="12" />
 
             <Button
                 android:id="@+id/bn6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="21" />
+                android:text="13" />
         </TableRow>
 
         <TableRow
@@ -90,19 +90,19 @@
                 android:id="@+id/btn7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="22" />
+                android:text="14" />
 
             <Button
                 android:id="@+id/btn8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="23" />
+                android:text="15" />
 
             <Button
                 android:id="@+id/bn9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="24" />
+                android:text="20" />
         </TableRow>
 
         <TableRow
@@ -115,19 +115,19 @@
                 android:id="@+id/btn10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="25" />
+                android:text="21" />
 
             <Button
                 android:id="@+id/btn11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="26" />
+                android:text="22" />
 
             <Button
                 android:id="@+id/bn12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="27" />
+                android:text="23" />
         </TableRow>
 
         <TableRow
