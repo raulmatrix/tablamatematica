@@ -7,22 +7,25 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button bsumar;
+    int valor1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        valor1=8;
     }
 
 
     public void siEsta(View v){
         Intent it = new Intent(this,pantalla2.class);
+        it.putExtra("llave1",valor1);
         startActivity(it);
 
     }
 
     public void noEsta(View v){
-
+        Intent it = new Intent(this,pantalla2.class);
+        startActivity(it);
     }
 }
