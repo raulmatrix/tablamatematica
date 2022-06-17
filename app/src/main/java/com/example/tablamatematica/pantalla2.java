@@ -10,17 +10,18 @@ public class pantalla2 extends AppCompatActivity {
     int valor2;
     TextView valorModificar;
     int recepValor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla2);
 
         valor2 = 2;//primer numero de la matriz de botones
-        valorModificar = (TextView) findViewById(R.id.txtval3);
+        valorModificar = (TextView) findViewById(R.id.txtval2);
 
         //Recepcion da vlores enviados desde el activity 1
         recepValor = getIntent().getIntExtra("llave1",0);
-        valorModificar.setText(""+recepValor);
+        //valorModificar.setText(""+recepValor);
 
     }
     public void siEsta(View v){
@@ -32,7 +33,9 @@ public class pantalla2 extends AppCompatActivity {
     }
 
     public void noEsta(View v){
+
         Intent it = new Intent(this,Pantalla3.class);
+        it.putExtra("llave2",recepValor);
         startActivity(it);
     }
 }

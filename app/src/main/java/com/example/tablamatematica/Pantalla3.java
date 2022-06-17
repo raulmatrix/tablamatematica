@@ -19,19 +19,20 @@ public class Pantalla3 extends AppCompatActivity {
         text3 = (TextView) findViewById(R.id.txtval3);
         //Recepcion da vlores enviados desde el activity 1
         recepValor = getIntent().getIntExtra("llave2",0);
-        text3.setText(""+recepValor);
+        //text3.setText(""+recepValor);
     }
 
     public void siEsta(View v){
         int valorEnvio3 = recepValor + valor3;
-        Intent it3 = new Intent(this,Respuesta.class);
+        Intent it3 = new Intent(this,Pantalla4.class);
         it3.putExtra("llave3",valorEnvio3);
         startActivity(it3);
 
     }
 
     public void noEsta(View v){
-        Intent it = new Intent(this,Respuesta.class);
+        Intent it = new Intent(this,Pantalla4.class);
+        it.putExtra("llave3",recepValor);
         startActivity(it);
     }
 }

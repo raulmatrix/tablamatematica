@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void noEsta(View v){
         Intent it = new Intent(this,pantalla2.class);
+        it.putExtra("llave1",0);
         startActivity(it);
     }
 }

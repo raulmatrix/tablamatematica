@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Pantalla5">
     <TextView
-        android:id="@+id/txtval3"
+        android:id="@+id/txtval5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -163,6 +163,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:backgroundTint="#4CAF50"
+        android:onClick="siEsta"
         android:text="SI."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
@@ -172,6 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#F44336"
+        android:onClick="noEsta"
         android:text="NO."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button7"

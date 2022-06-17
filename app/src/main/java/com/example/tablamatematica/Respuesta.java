@@ -15,7 +15,7 @@ public class Respuesta extends AppCompatActivity {
         respuesta = (TextView) findViewById(R.id.txtRespuesta);
 
         //Recepcion da vlores enviados desde el activity 3
-        recepValor = getIntent().getIntExtra("llave3",0);
+        recepValor = getIntent().getIntExtra("llave5",0);
         respuesta.setText(""+recepValor);
     }
 }
