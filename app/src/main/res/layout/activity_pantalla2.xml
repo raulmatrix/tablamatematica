@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="TABLA MATEMATICA"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +36,7 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="40dp"
-            android:paddingRight="60dp">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn1"
@@ -59,8 +60,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="40dp"
-            android:paddingRight="60dp">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn4"
@@ -84,8 +84,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="40dp"
-            android:paddingRight="60dp">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn7"
@@ -109,8 +108,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="40dp"
-            android:paddingRight="60dp">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn10"
@@ -134,8 +132,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="40dp"
-            android:paddingRight="60dp">
+            android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn13"
