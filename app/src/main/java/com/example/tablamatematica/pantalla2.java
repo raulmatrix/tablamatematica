@@ -17,7 +17,7 @@ public class pantalla2 extends AppCompatActivity {
         setContentView(R.layout.activity_pantalla2);
 
         valor2 = 2;//primer numero de la matriz de botones
-        valorModificar = (TextView) findViewById(R.id.txtval2);
+        //valorModificar = (TextView) findViewById(R.id.txtval2);
 
         //Recepcion da vlores enviados desde el activity 1
         recepValor = getIntent().getIntExtra("llave1",0);
